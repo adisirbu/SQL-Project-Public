@@ -1,4 +1,9 @@
-﻿$sqlQuery = '' #this is the query
+﻿#Check if WeatherList.txt exists
+if (-Not(Test-Path "E:\Documente\Adi\Project-SQL\WeatherList.txt")) {
+    Exit #terminate the script; there's nothing to write
+}
+
+$sqlQuery = '' #this is the query
 #creating the variables that will hold the parameteres we insert into the database
 $weatherDate = '' #the date
 $location = '' #the location
@@ -12,7 +17,7 @@ $sqlConnection = New-Object System.Data.SqlClient.SqlConnection #create the conn
 $sqlConnection.ConnectionString="Server=localhost; Database=Weather; User Id=automation; Password=AutomationSQL1" #connection parameters
 $sqlConnection.Open() #open the connection
 
-foreach ($line in [System.IO.File]::ReadLines("C:\Users\adisi\Documents\GitHub\SQL-Project\WeatherList.txt")) {
+foreach ($line in [System.IO.File]::ReadLines("E:\Documente\Adi\Project-SQL\WeatherList.txt")) {
     #next 5 lines need to be executed for every line of the file
     #split each line of the file by " - " and assign each segment to a variable
     $weatherDate, $location, $description, $temperature, $humidity, $windSpeed, $windDirection = $line -split " - "
@@ -23,5 +28,7 @@ foreach ($line in [System.IO.File]::ReadLines("C:\Users\adisi\Documents\GitHub\S
     $sqlCommand.ExecuteNonQuery()
 }
 
-
 $sqlConnection.Close() #don't forget to close the connection
+
+#Delete WeatherList.txt once it has been processed
+Remove-Item "E:\Documente\Adi\Project-SQL\WeatherList.txt"
