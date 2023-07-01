@@ -14,7 +14,7 @@ $windSpeed = 0.0 #the wind speed
 $windDirection = 0 #the wind direction
 
 $sqlConnection = New-Object System.Data.SqlClient.SqlConnection #create the connection
-$sqlConnection.ConnectionString="Server=localhost; Database=Weather; User Id=automation; Password=AutomationSQL1" #connection parameters
+$sqlConnection.ConnectionString="Server=localhost; Database=Weather; User Id=automation; Password=********" #connection parameters
 $sqlConnection.Open() #open the connection
 
 foreach ($line in [System.IO.File]::ReadLines("E:\Documente\Adi\Project-SQL\WeatherList.txt")) {

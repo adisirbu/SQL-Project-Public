@@ -1,5 +1,5 @@
 ﻿$sqlConnection = New-Object System.Data.SqlClient.SqlConnection
-$sqlConnection.ConnectionString="Server=localhost; Database=Weather; User Id=automation; Password=AutomationSQL1"
+$sqlConnection.ConnectionString="Server=localhost; Database=Weather; User Id=automation; Password=********"
 $sqlConnection.Open() #open the connection
 
 $sqlCommand=$sqlConnection.CreateCommand()
