@@ -9,7 +9,7 @@ if os.path.exists("/project/Transfer.txt"): #search for Transfer.txt and remove 
     os.remove("/project/WeatherList.txt") #remove WeatherList.txt, it has already been transferred
 
 FileLine = "" #this will be the line we write in the file at the end
-UrlToCheck = "https://api.openweathermap.org/data/2.5/weather?lat=44.32&lon=23.80&units=metric&appid=274906d536ae27f7b4e0a952f0cd102b" #the URL for Craiova complete with my API key
+UrlToCheck = "https://api.openweathermap.org/data/2.5/weather?lat=44.32&lon=23.80&units=metric&appid=GetYourAPIKey" #the URL for Craiova complete with my API key
 try: #we might get errors, so work with "try"
     response = requests.get(UrlToCheck) #this is the API call with API key included
     response.raise_for_status() #catch the exceptions
