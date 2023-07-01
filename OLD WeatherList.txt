@@ -1,0 +1,16 @@
+2023-06-24 21:00:03 - Deva - overcast clouds - 22.51 - 89 - 0.59 - 31
+2023-06-24 22:00:02 - Deva - overcast clouds - 21.07 - 93 - 0.27 - 33
+2023-06-24 23:00:03 - Deva - broken clouds - 20.25 - 94 - 0.18 - 163
+2023-06-25 00:00:02 - Deva - light rain - 19.61 - 95 - 0.57 - 37
+2023-06-25 00:43:58 - Deva - broken clouds - 19.14 - 96 - 0.25 - 314
+2023-06-25 00:50:30 - Deva - broken clouds - 19.14 - 96 - 0.25 - 314
+2023-06-25 01:00:05 - Deva - broken clouds - 19.15 - 96 - 0.24 - 318
+2023-06-25 02:00:02 - Deva - overcast clouds - 18.82 - 96 - 0.25 - 195
+2023-06-25 03:00:04 - Deva - overcast clouds - 18.47 - 97 - 0.44 - 195
+2023-06-25 04:00:03 - Deva - overcast clouds - 18.31 - 97 - 0.78 - 210
+2023-06-25 05:00:03 - Deva - overcast clouds - 18.14 - 98 - 1.54 - 267
+2023-06-25 06:00:03 - Deva - overcast clouds - 18.62 - 99 - 0.94 - 283
+2023-06-25 07:00:02 - Deva - overcast clouds - 18.91 - 98 - 0.69 - 214
+2023-06-25 08:00:02 - Deva - overcast clouds - 19.14 - 98 - 1.06 - 223
+2023-06-25 09:00:02 - Deva - overcast clouds - 19.28 - 97 - 0.49 - 201
+2023-06-25 10:00:02 - Deva - overcast clouds - 19.98 - 94 - 0.74 - 255
